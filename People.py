@@ -11,3 +11,6 @@ class People:
 
     def output(self):
         return '{0:<5}'.format(str(self.id)) + '{0:<20}'.format(self.name) + '{0:<10}'.format(self.address)
+
+    def getID(self):
+        return self.id
