@@ -38,7 +38,7 @@ def menu():
                     continue
                 count = 0
                 id = int(input("Enter id to remove= "))
-                for item in list:
+                for item in list[:]:
                     if(item.getID().__eq__(id)):
                         list.remove(item)
                         count = 0
