@@ -43,7 +43,6 @@ def menu():
                         list.remove(item)
                         count = 0
                         print("Remove successfully")
-                        continue
                     else:
                         count =1
                 if count.__eq__(1):
