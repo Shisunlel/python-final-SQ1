@@ -1,4 +1,4 @@
-from Classes.Stuff import Stuff
+from Classes.class_Stuff import Stuff
 
 
 class Teacher(Stuff):

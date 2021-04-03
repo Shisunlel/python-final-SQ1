@@ -1,4 +1,4 @@
-from Classes.People import People
+from Classes.class_People import People
 
 class Stuff(People):
     jobTitle = None

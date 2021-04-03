@@ -1,4 +1,4 @@
-from Classes.People import *
+from Classes.class_People import *
 
 class Student(People):
     subject=None
