@@ -1,4 +1,4 @@
-from classes.Staff import *
+from classes.Teacher import *
 def menu():
     try:
         list = []
@@ -12,12 +12,12 @@ def menu():
             print("==========")
             if choice.__eq__(1):
                 print("1. Add staff")
-                n = int(input("Enter n= "))
+                n = int(input("Enter N= "))
                 for i in range(0,n):
-                    staff = Staff()
+                    teacher = Teacher()
                     print("==========")
-                    staff.input()
-                    list.append(staff)
+                    teacher.input()
+                    list.append(teacher)
                 continue
             if choice.__eq__(2):
                 print("2. Show")
@@ -25,7 +25,7 @@ def menu():
                 if len(list).__eq__(0):
                     print("List is empty")
                     continue
-                print("ID{:<3}Name{:<6}Price{:<3}Qty{:<3}Amount".format('','','',''))
+                print("ID{:<3}Name{:<4}Price{:<3}Qty{:<3}Amount".format('','','',''))
                 for item in list:
                     print(item.output())
                 continue
