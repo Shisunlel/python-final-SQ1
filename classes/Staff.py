@@ -1,6 +1,6 @@
 from classes.People import *
 
-class Stuff(People):
+class Staff(People):
     jobTitle = None
     salary = None
 

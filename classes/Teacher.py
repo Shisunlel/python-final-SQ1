@@ -1,1 +1,1 @@
-print("Hello")
+from classes.Staff import *
