@@ -11,7 +11,7 @@ def menu():
             choice = int(input("Choose between 0 and 3= "))
             print("==========")
             if choice.__eq__(1):
-                print("1. Add staff")
+                print("1. Add Teacher")
                 n = int(input("Enter N= "))
                 for i in range(0,n):
                     teacher = Teacher()
@@ -25,7 +25,7 @@ def menu():
                 if len(list).__eq__(0):
                     print("List is empty")
                     continue
-                print("ID{:<3}Name{:<4}Price{:<3}Qty{:<3}Amount".format('','','',''))
+                print("ID{:<3}Name{:<16}Address{:<12}Jobtitle{:<9}Salary{:<6}Roomnumber".format('','','','',''))
                 for item in list:
                     print(item.output())
                 continue
@@ -44,7 +44,7 @@ def menu():
                     else:
                         count =1
                 if count.__eq__(1):
-                    print("No staff match with this id")
+                    print("No Teacher match with this id")
                 continue
             if choice.__eq__(0):
                 raise SystemExit
