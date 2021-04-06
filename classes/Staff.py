@@ -10,4 +10,4 @@ class Staff(People):
         self.salary = int(input("Enter Salary= "))
 
     def output(self):
-        return super().output() + '{0:<17}'.format(self.jobTitle) + '${0:<12}'.format(self.salary)
+        return super().output() + '{0:<20}'.format(self.jobTitle) + '${0:,.2f}'.format(self.salary)

@@ -10,7 +10,7 @@ class People:
         self.address = input("Enter address= ")
 
     def output(self):
-        return '{0:<5}'.format(str(self.id)) + '{0:<20}'.format(self.name) + '{0:<19}'.format(self.address)
+        return '{0:<5}'.format(str(self.id)) + '{0:<20}'.format(self.name) + '{0:<15}'.format(self.address)
 
     def getID(self):
         return self.id

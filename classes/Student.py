@@ -10,4 +10,4 @@ class Student(People):
         self.__year = int(input("Enter year= "))
 
     def output(self):
-        return super().output() + '{0:<10}'.format(self.__subject) + str(self.__year)
+        return super().output() + '{0:<20}'.format(self.__subject) + str(self.__year)

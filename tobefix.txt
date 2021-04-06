@@ -1,0 +1,16 @@
+Problem 1:  when last element is not remove but element before remove
+            ex: 
+            id  name    address
+            1   Jon     PP
+            2   Joo     KK
+            8   Jodar   MM
+
+            -> remove 8
+            => remove successfully
+            -> remove 1
+            => no item match (but id 1 remove)
+            final result
+            id  name    address
+            2   Joo     KK
+Solution: force show message remove successfully when list = 1 and count = 1
+======

@@ -1,2 +1,2 @@
 # python-final-SQ1
-python project
+write problem occur inside tobefix, if someone want to fix problem other than me fetch from my branch and do it yourself then pull request to me and try to follow my writing style or your own but improve readability
